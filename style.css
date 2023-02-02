@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    margin-top: 120px;
+}
+
+.navbar
+{
+    font-size: 40px;
+}
+
+/* Productos - Tienda */
+.prod-tienda
+{
+    display: flex;
+    justify-content: space-around;           
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;    
+}
+
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+
+.card > img
+{
+    width: 250px;
+    height: 250px;
+}
+
+.p-precio
+{
+    color: grey;
+    font-size: 22px;
+}
+
+.card button
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover
+{
+    opacity: 0.7;
+}
+
+/* Modal Carrito */
+.modal-carrito
+{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-carrito::-webkit-scrollbar
+{
+    display: none;
+}
+
+.modal-header
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0909;
+    color: #fff;
+    width: 100%;
+}
+
+.h1-modal
+{
+    justify-self: start;
+}
+
+.btn-modal
+{
+    cursor: pointer;
+}
+
+.modal-carrito > .carrito-main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.modal-carrito > div > img
+{
+    height: 120px;
+    width: 120px;
+}
+
+.total-carrito
+{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.borrar-producto
+{
+    cursor: pointer;
+}
+
+.num-productos
+{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;  
+}
+
+.span-restar, .span-sumar, .img-carrito
+{
+    cursor: pointer;
+}
+
+.btn-final-compra
+{
+    margin-left: 30px;
+}
