@@ -1,0 +1,107 @@
+[
+    {
+      "id": "1",
+      "nombre": "Pechera Simple",
+      "precio": 18,
+      "imagen": "./img/img productos pag/1pechera.png",
+      "cantidad": 1
+    },
+    {
+      "id": "2",
+      "nombre": "Pechera Azul",
+      "precio": 25,
+      "imagen": "./img/img productos pag/2pechera.png",
+      "cantidad": 1
+    },
+    {
+      "id": "3",
+      "nombre": "Pechera de Cuero",
+      "precio": 30,
+      "imagen": "./img/img productos pag/3pechera.png",
+      "cantidad": 1
+    },
+    {
+      "id": "4",
+      "nombre": "Correa Simple",
+      "precio": 13,
+      "imagen": "./img/img productos pag/4correa.png",
+      "cantidad": 1
+    },
+    {
+      "id": "5",
+      "nombre": "Correa Doble",
+      "precio": 16,
+      "imagen": "./img/img productos pag/5correa.png",
+      "cantidad": 1
+    },
+    {
+      "id": "6",
+      "nombre": "Correa Larga",
+      "precio": 18,
+      "imagen": "./img/img productos pag/6correa.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "7",
+      "nombre": "Bravecto 2-4.5kg",
+      "precio": 115,
+      "imagen": "./img/img productos pag/7pastilla.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "8",
+      "nombre": "Bravecto 4.5-10kg",
+      "precio": 135,
+      "imagen": "./img/img productos pag/8pastilla.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "9",
+      "nombre": "Bravecto 20-40kg",
+      "precio": 185,
+      "imagen": "./img/img productos pag/9pastilla.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "10",
+      "nombre": "Plato Doble",
+      "precio": 12,
+      "imagen": "./img/img productos pag/10plato.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "11",
+      "nombre": "Plato Antiestres",
+      "precio": 18,
+      "imagen": "./img/img productos pag/11plato.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "12",
+      "nombre": "Plato de Acero",
+      "precio": 25,
+      "imagen": "./img/img productos pag/12plato.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "13",
+      "nombre": "Cama Dona",
+      "precio": 35,
+      "imagen": "./img/img productos pag/13cama.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": "14",
+      "nombre": "Cama XL",
+      "precio": 55,
+      "imagen": "./img/img productos pag/14cama.png",
+      "cantidad": 1
+    },
+    {
+      "id": "15",
+      "nombre": "Cool Mat",
+      "precio": 65,
+      "imagen": "./img/img productos pag/15cama.png",
+      "cantidad": 1
+    }
+  ]
